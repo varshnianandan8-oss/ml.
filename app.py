@@ -20,6 +20,6 @@ def predict():
     data = np.array([[income,score]])
     result = model.predict(data)[0]
  
-    return render_template("result.html",prediction=result)
+    return render_template("index.html",prediction=result)
 
    
