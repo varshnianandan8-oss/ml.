@@ -22,6 +22,4 @@ def predict():
  
     return render_template("result.html",prediction=result)
 
-if__name__ == "__main__";
-   app.run(debug=True)
    
